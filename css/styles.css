@@ -2706,7 +2706,7 @@ fieldset:disabled a.btn {
   border-color: var(--black);
 }
 .btn-black:focus, .btn-black.focus {
-  color:var(--white);
+  color:none;
   background-color:var(--black);
   border-color: var(--black);
   outline: none;
@@ -10315,4 +10315,9 @@ form .row:first-child .floating-label-form-group {
 .lime_green{
   color:var(--lime_green);
 }
-
+.white{
+  color: var(--white);
+}
+.gray{
+color: var(--gray);
+}

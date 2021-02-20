@@ -22,16 +22,85 @@
             <img src="./images/logo.png" alt="BEST" width="180px" height="auto">
 
             <div class="align-middle text-align-center">
-                <button type="button" class="btn btn-black h-100">Dark <i class="fas fa-caret-down ml-3"></i></button>
-            </div>
-            <div>
+                <button type="button" class="btn btn-black h-100 mx-4 gray" onmouseenter="toggle_page('btn1')"  >
+                    <div id="btn1" class="white">
+                        About BEST <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
 
+                <button  type="button" class="btn btn-black h-100 mx-4 tangerine" onmouseenter="toggle_page('btn2')">
+                    <div id="btn2" class="white">
+                        Courses <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 spanish_blue" onmouseenter="toggle_page('btn3')"   >
+                    <div id="btn3" class="white">
+                        Competitions <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 lime_green" onmouseenter="toggle_page('btn4')"  >
+                    <div id="btn4" class="white">
+                        Educational Involvement<i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 teal_blue" onmouseenter="toggle_page('btn5')" >
+                    <div id="btn5" class="white">
+                        Career<i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 gray" onmouseenter="toggle_page('btn6')">
+                    <div id="btn6" class="white">
+                        Contact <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
             </div>
-            <h1>OLA</h1>
-            <h1>OI</h1>
+            
+            <div class="align-middle text-align-center">
+                <button type="button" class="btn btn-black h-100">My Account <i class="fas fa-caret-down ml-3"></i></button>
+            </div>
+            
+        </div>
+        <div class="d-flex w12">
+            <div class="filterDiv btn1">
+                
+            </div>
+
         </div>
 
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+
+
+
+
+
+
+
+
+<script>
+    function toggle_page(c) {
+        var i;
+        var str = "btn";
+        for (i = 1; i < 7; i++) {
+            show_class(str.concat(i.toString()));
+        }
+        hide_class(c);
+    }
+    function hide_class(id){
+        var element = document.getElementById(id);
+        element.classList.remove("white");
+    }
+    
+    function show_class(id){
+        var element = document.getElementById(id);
+        element.classList.add("white");
+    }
+    
+</script>
 </html>
+
