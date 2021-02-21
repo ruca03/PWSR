@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BEST</title>
+        <!-- Favicon-->
+        <link rel="icon" type="./../../image/x-icon" href="images/favicon.ico" />
+        <!-- Font Awesome icons-->
+        <link href="./../../fontawesome/css/all.css" rel="stylesheet">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./../../css/styles.css" rel="stylesheet" />
+
+        <!-- Personalized CSS-->
+        <link href="./../../css/style.css" rel="stylesheet" />
+
+
+    </head>
+    <body>
+        <div class="d-flex col-12 bg-black justify-content-between px-3">
+          <a href="home.html">
+            <img src="./../../images/logo.png" alt="BEST" width="100px" height="auto" class="my-2">
+          </a>
+
+
+            <div class="align-middle text-align-center">
+                <button type="button" class="btn btn-black h-100 mx-4 gray" onmouseenter="show_class('btn1_drop')"  >
+                    <div id="btn1" class="">
+                        About BEST <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button  type="button" class="btn btn-black h-100 mx-4 tangerine" onmouseenter="show_class('btn2_drop')">
+                    <div id="btn2" class="white">
+                        Courses <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 spanish_blue" onmouseenter="show_class('btn3_drop')"   >
+                    <div id="btn3" class="white">
+                        Competitions <i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 lime_green" onmouseenter="show_class('btn4_drop')"  >
+                    <div id="btn4" class="white">
+                        Educational Involvement<i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 teal_blue" onmouseenter="show_class('btn5_drop')" >
+                    <div id="btn5" class="white">
+                        Career<i class="fas fa-caret-down ml-3"></i>
+                    </div>
+                </button>
+
+                <button type="button" class="btn btn-black h-100 mx-4 gray" onmouseenter="show_class('btn6_drop')">
+                    <div id="btn6" class="white">
+                        Contact
+                    </div>
+                </button>
+            </div>
+
+            <div class="align-middle text-align-center">
+                <button type="button" class="btn btn-black h-100">My Account <i class="fas fa-caret-down ml-3"></i></button>
+            </div>
+
+        </div>
+        <div class="line_white"></div>
+        <div id="btn1_drop" class="filterDiv btn1 col-12" onmouseleave="hide_all()" style="position: absolute;top:7.9vh;z-index:0;">
+          <div class="d-flex col-12 justify-content-center">
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../about/what.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center">
+                          <h3 class="my-4"><i class="far fa-comments"></i></h3>
+                          <p>What is BEST?</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../about/lbgs.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-map-marker-alt"></i></h3>
+                          <p>Local BEST Groups</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../about/structure.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-sitemap"></i></h3>
+                          <p>Structure</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../common/news.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="far fa-newspaper"></i></h3>
+                          <p>News</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../about/tigro.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-chalkboard"></i></h3>
+                          <p>Training Department</p>
+
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="btn2_drop" class="filterDiv btn2 col-12" onmouseleave="hide_all()" style="position: absolute;top:7.9vh;z-index:0;">
+          <div class="d-flex col-12 justify-content-center">
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../courses/home.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center">
+                          <h3 class="my-4"><i class="fas fa-home"></i></h3>
+                          <p>Welcome and news</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../courses/faqs.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-question-circle"></i></h3>
+                          <p>FAQs</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../courses/list.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-graduation-cap"></i></h3>
+                          <p>List of Courses</p>
+
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="btn3_drop" class="filterDiv btn3 col-12" onmouseleave="hide_all()" style="position: absolute;top:7.9vh;z-index:0;">
+          <div class="d-flex col-12 justify-content-center">
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../comp/home.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center">
+                          <h3 class="my-4"><i class="fas fa-home"></i></h3>
+                          <p>Welcome and news</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../comp/ebec.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-cog"></i></h3>
+                          <p>EBEC</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../comp/all.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-pencil-ruler"></i></h3>
+                          <p>All Competitions</p>
+
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+
+        <div id="btn4_drop" class="filterDiv btn4 col-12" onmouseleave="hide_all()" style="position: absolute;top:7.9vh;z-index:0;">
+          <div class="d-flex col-12 justify-content-center">
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../eduid/home.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center">
+                          <h3 class="my-4"><i class="fas fa-home"></i></h3>
+                          <p>Welcome and news</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../eduid/research.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-microscope"></i></i></h3>
+                          <p>Research</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../eduid/projects.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-tasks"></i></h3>
+                          <p>Projects</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../eduid/conferences.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-book-reader"></i></h3>
+                          <p>Conferences</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../eduid/contributions.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-donate"></i></h3>
+                          <p>contributions</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../eduid/partners.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="far fa-handshake"></i></h3>
+                          <p>Partners</p>
+
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="btn5_drop" class="filterDiv btn5 col-12" onmouseleave="hide_all()" style="position: absolute;top:7.9vh;z-index:0;">
+          <div class="d-flex col-12 justify-content-center">
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../career/home.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center">
+                          <h3 class="my-4"><i class="fas fa-home"></i></h3>
+                          <p>Welcome and news</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../career/offers.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-hand-holding-usd"></i></h3>
+                          <p>Offers</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../career/partners.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="far fa-handshake"></i></h3>
+                          <p>Partners</p>
+
+                      </a>
+                  </div>
+              </div>
+              <div class="col-2 mx-0 px-0">
+                  <div class="align-middle text-align-center flex-column col-12 mx-0 px-0">
+                      <a href="./../career/events.html" class="btn btn_drop flex-column h-100 text-center col-12 justify-content-center mx-0">
+                          <h3 class="my-4"><i class="fas fa-calendar-day"></i></h3>
+                          <p>Events</p>
+
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 mx-0 px-0" style="position:absolute;left:0;top:0;z-index:-4;background-size: cover;width:100vw;height: 100vh;overflow:hidden" >
+          <img src="./../../images/about.png" style="width:100vw;">
+        </div>
+        <div style="position:absolute;left:0;top:0;z-index:-3;width:100%;height:100%;background-color:#000000a0;overflow:hidden"></div>
+        <div class="col-12 d-flex justify-content-center text-center align-center align-items-center" style="height:92.5vh;z-index:-2">
+          <h1>About BEST</h1>
+        </div>
+        <div class="col-12 black bg-white justify-conten-center text-center py-3 mx-0">
+          <h1 style="color:var(--black);">Training Department</h1>
+        </div>
+
+
+        <!-- Core theme JS-->
+        <script src="./../../js/scripts.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+<script>
+hide_all();
+function hide_all(){
+  document.getElementById("btn1_drop").style.display = "none";
+  document.getElementById("btn2_drop").style.display = "none";
+  document.getElementById("btn3_drop").style.display = "none";
+  document.getElementById("btn4_drop").style.display = "none";
+  document.getElementById("btn5_drop").style.display = "none";
+
+}
+function show_class(str){
+  if (str != "btn1_drop") {
+    document.getElementById("btn1_drop").style.display = "none";
+  }
+  if (str != "btn2_drop") {
+    document.getElementById("btn2_drop").style.display = "none";
+  }
+  if (str != "btn3_drop") {
+    document.getElementById("btn3_drop").style.display = "none";
+  }
+  if (str != "btn4_drop") {
+    document.getElementById("btn4_drop").style.display = "none";
+  }
+  if (str != "btn5_drop") {
+    document.getElementById("btn5_drop").style.display = "none";
+  }
+  document.getElementById(str).style.display = "flex";
+}
+</script>
+</html>

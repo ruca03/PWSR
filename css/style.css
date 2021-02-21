@@ -7,6 +7,31 @@
   height: 0px;
   border-color: var(--white);
 }
+.line_teal{
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  height: 0px;
+  border-color: var(--teal_blue);
+}
+.line_spanish{
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  height: 0px;
+  border-color: var(--spanish_blue);
+}
+.line_lime{
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  height: 0px;
+  border-color: var(--lime_green);
+}
+.line_tangerine{
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  height: 0px;
+  border-color: var(--tangerine);
+}
+
 .btn_drop{
   display: flex;
   flex-direction: column;
@@ -24,4 +49,12 @@
 .btn_drop:hover{
   background-color: var(--gray);
   color: var(--white);
+}
+
+.main_img{
+  background: url(./../../images/eduid.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
