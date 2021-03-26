@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BEST</title>
+        <!-- Favicon-->
+        <link rel="icon" type="./../../image/x-icon" href="images/favicon.ico" />
+        <!-- Font Awesome icons-->
+        <link href="./../../fontawesome/css/all.css" rel="stylesheet">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./../../css/styles.css" rel="stylesheet" />
+
+        <!-- Personalized CSS-->
+        <link href="./../../css/style.css" rel="stylesheet" />
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    </head>
+    <body>
+
+      <section>
+        <div class="navbar-placeholder"></div>
+      </section>
+
+
+        <!-- Core theme JS-->
+        <script src="./../../js/scripts.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+<script>
+
+$(function(){
+  $(".navbar-placeholder").load("./../common/navbar.html");
+});
+
+
+hide_all();
+function hide_all(){
+  document.getElementById("btn1_drop").style.display = "none";
+  document.getElementById("btn2_drop").style.display = "none";
+  document.getElementById("btn3_drop").style.display = "none";
+  document.getElementById("btn4_drop").style.display = "none";
+  document.getElementById("btn5_drop").style.display = "none";
+
+}
+function show_class(str){
+  if (str != "btn1_drop") {
+    document.getElementById("btn1_drop").style.display = "none";
+  }
+  if (str != "btn2_drop") {
+    document.getElementById("btn2_drop").style.display = "none";
+  }
+  if (str != "btn3_drop") {
+    document.getElementById("btn3_drop").style.display = "none";
+  }
+  if (str != "btn4_drop") {
+    document.getElementById("btn4_drop").style.display = "none";
+  }
+  if (str != "btn5_drop") {
+    document.getElementById("btn5_drop").style.display = "none";
+  }
+  document.getElementById(str).style.display = "flex";
+}
+</script>
+</html>
