@@ -10303,22 +10303,3 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
-
-.teal_blue{
-  color: var(--teal_blue);
-}
-.spanish_blue{
-  color: var(--spanish_blue);
-}
-.tangerine{
-  color: var(--tangerine);
-}
-.lime_green{
-  color:var(--lime_green);
-}
-.white{
-  color: var(--white);
-}
-.gray{
-color: var(--gray);
-}
